@@ -7,7 +7,6 @@
 	
 angular.module('titosBootwrap', ['ng']).
 
-
 	service('$hat', [function $TopNavBar(){
 		this.verde = 'verde';
 		this.mild = 'mild';
