@@ -1,0 +1,10 @@
+{
+  "name": "titos-bootwrap",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./titos-bootwrap.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.5.8"
+  }
+}
