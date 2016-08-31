@@ -9,12 +9,7 @@ angular.module('titosBootwrap', ['ng']).
 
 	service('$hat', [function $TopNavBar(){
 		
-		function dressUp
-		
-		this.model = function(links, map){
-			
-		};
-		
+	
 		this.verde = 'verde';
 		this.mild = 'mild';
 		this.hot = 'hot';
