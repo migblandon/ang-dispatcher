@@ -7,17 +7,20 @@
 	
 angular.module('titosBootwrap', ['ng']).
 
-	service('$hat', [function $TopNavBar(){
+	service('$hat', ['$window', function $TopNavBar($window){
 		
-	
-		this.verde = 'verde';
-		this.mild = 'mild';
-		this.hot = 'hot';
-		this.fire = 'fire';
-		this.left = 'left';
-		this.right = 'right';
-		this.spare = 'spare';
-		this.view = 'view';
+		this.vertical = function(amount){
+			console.log('Width is => ' + $window.innerWidth + ', with '
+			+ amount+' cointaners');
+			return 'vertical';
+		}
+		this.sizing = 'medium';
+		this.change = function(){
+			console.log('Changed');
+		}
+		this.horizontal = 'horizontal';
+		
+		
 		this.toggled = false;
 		this.toggle = function(){
 			this.toggled = !this.toggled;
