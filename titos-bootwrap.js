@@ -9,17 +9,25 @@ angular.module('titosBootwrap', ['ng']).
 
 	service('$hat', ['$window', function $TopNavBar($window){
 		
-		this.vertical = function(amount){
-			console.log('Width is => ' + $window.innerWidth + ', with '
-			+ amount+' cointaners');
-			return 'vertical';
+		this.vertical = function(level){
+			switch (level) {
+				case 4:
+					if($window.innerWidth < 1280)
+						return 'vertical large';
+					return 'vertical small';
+				case 3:
+					return 'vertical medium';
+				case 2:
+					return 'vertical large';
+				case 1:
+					return 'vertical xlarge';
+				default:
+					return 'vertical xsmall';
+			}
 		}
-		this.sizing = 'medium';
-		this.change = function(){
-			console.log('Changed');
+		this.horizontal = function(){
+			return 'horizontal';
 		}
-		this.horizontal = 'horizontal';
-		
 		
 		this.toggled = false;
 		this.toggle = function(){
