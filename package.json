@@ -16,8 +16,8 @@
     "browser",
     "window",
     "client-side",
-    "bootwrap",
-    "bootstap"
+    "dispatcher",
+    "controller"
   ],
   "author": "Miguel Guevara from Miami",
   "license": "MIT",
@@ -27,7 +27,7 @@
   "homepage": "http://titos.com",
   "jspm": {
     "shim": {
-      "titos-bootwrap": {
+      "ang-dispatcher": {
         "deps": ["angular"]
       }
     }

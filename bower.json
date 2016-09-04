@@ -1,8 +1,8 @@
 {
-  "name": "titos-bootwrap",
+  "name": "ang-dispatcher",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "./titos-bootwrap.js",
+  "main": "./ang-dispatcher.js",
   "ignore": [],
   "dependencies": {
     "angular": "1.5.8"
