@@ -1,2 +1,2 @@
-require('./titos-bootwrap');
-module.exports = 'titosBootwrap';
+require('./ang-dispatcher');
+module.exports = 'angDispatcher';
