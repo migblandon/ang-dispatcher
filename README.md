@@ -1,7 +1,7 @@
 #angDispatcher
 Created by: Miguel Guevara
 
-If you ever need to copy code to your html, then "angDispatcher" was designed for that.
+If you ever need to copy code in your html, then "angDispatcher" was designed for you.
 Take any node in yout tree and clone it to any other node in your tree. Even take an array of nodes
 and added in multiple places. 
 You use two directives to handle the nodes and that is all there is. 
